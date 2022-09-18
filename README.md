@@ -19,8 +19,6 @@ each algorithm. So hopefully this will help you guys get used to Leetcode much f
 
 <h2><a href = "https://www.geeksforgeeks.org/window-sliding-technique/" >Sliding Window</a></h2>
 
-<p><b>Time complexity O(n)</b></p>
-
 <p>
 An Algorithm that consists of two pointers that operates on an array or a list.
 The two pointers will create a "window" and you will move that window along your
@@ -31,7 +29,7 @@ data object, which is usually a list or an array.
 <a href = "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">Two Sum II</a>
 
 
-<h2>Breadth First Search</h2>
+<h2><a href = "https://github.com/blam1998/Leetcode/blob/main/BinaryTreeLevelOrderTraversal.md" > Breadth First Search </a></h2>
 <p>
 An Algorithm usually used for tree or graph traversal. For trees, it is useful for 
 level-order traversal. Or traversing each node in a particular level before moving onto
@@ -39,6 +37,25 @@ a lower level.
 </p>
 
 <a href = "https://leetcode.com/problems/binary-tree-level-order-traversal/" >Binary Tree Level Order Traversal</a>
+
+<h2>Depth First Search</h2>
+
+<p>
+This algorithm consist are most often used with recursion, it is possible to do this 
+without recursion as well. Generally you traverse the tree bottom up approach since you do
+recursive call until the very last node. Then execute code and return it to your root node.
+There are 3 different DFS type.
+</p>
+
+<li>Preorder Traversal</li>
+<p>Root --> Left --> Right</p>
+
+
+<li>Inorder Traversal</li>
+<p>Left --> Root --> Right</p>
+
+<li>Postorder Traversal</li>
+<p>Left --> Right --> Root</p>
 
 
 <h2>Disclaimer</h2>
