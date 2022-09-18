@@ -19,8 +19,6 @@ each algorithm. So hopefully this will help you guys get used to Leetcode much f
 
 <h2><a href = "https://www.geeksforgeeks.org/window-sliding-technique/" >Sliding Window</a></h2>
 
-<p><b>Time complexity O(n)</b></p>
-
 <p>
 An Algorithm that consists of two pointers that operates on an array or a list.
 The two pointers will create a "window" and you will move that window along your
