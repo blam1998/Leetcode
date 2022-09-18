@@ -38,6 +38,25 @@ a lower level.
 
 <a href = "https://leetcode.com/problems/binary-tree-level-order-traversal/" >Binary Tree Level Order Traversal</a>
 
+<h2>Depth First Search</h2>
+
+<p>
+This algorithm consist are most often used with recursion, it is possible to do this 
+without recursion as well. Generally you traverse the tree bottom up approach since you do
+recursive call until the very last node. Then execute code and return it to your root node.
+There are 3 different DFS type.
+</p>
+
+<li>Preorder Traversal</li>
+<p>Root --> Left --> Right</p>
+
+
+<li>Inorder Traversal</li>
+<p>Left --> Root --> Right</p>
+
+<li>Postorder Traversal</li>
+<p>Left --> Right --> Root</p>
+
 
 <h2>Disclaimer</h2>
 All of the code in this repository may not be from me. Some of these solutions may be my
