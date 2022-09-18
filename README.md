@@ -4,6 +4,7 @@ do it enough, but be able to properly explain the solution to your audience is
 also an important skill since that you'd need as a software developer.</li>
 <li>Helps me practice documentation writing skills.</li>
 <li>Hopefully it might help someone in the future.</li>
+<li>Help me learn github.</li>
 
 
 <h1>List of Useful Algorithms</h1>
@@ -38,7 +39,7 @@ a lower level.
 
 <a href = "https://leetcode.com/problems/binary-tree-level-order-traversal/" >Binary Tree Level Order Traversal</a>
 
-<h2>Depth First Search</h2>
+<h2><a>Depth First Search</a></h2>
 
 <p>
 This algorithm consist are most often used with recursion, it is possible to do this 
@@ -47,9 +48,8 @@ recursive call until the very last node. Then execute code and return it to your
 There are 3 different DFS type.
 </p>
 
-<li>Preorder Traversal</li>
+<li><a href = "https://github.com/blam1998/Leetcode/blob/main/src/PreorderTraversalDFS.md"> Preorder Traversal </a></li>
 <p>Root --> Left --> Right</p>
-
 
 <li>Inorder Traversal</li>
 <p>Left --> Root --> Right</p>
