@@ -49,10 +49,10 @@ There are 3 different DFS type.
 <li><a href = "https://github.com/blam1998/Leetcode/blob/main/src/PreorderTraversalDFS.md"> Preorder Traversal </a></li>
 <p>Root --> Left --> Right</p>
 
-<li>Inorder Traversal</li>
+<li><a href = "https://github.com/blam1998/Leetcode/blob/main/src/InorderTraversalDFS.md">Inorder Traversal</a></li>
 <p>Left --> Root --> Right</p>
 
-<li>Postorder Traversal</li>
+<li><a href = "https://github.com/blam1998/Leetcode/blob/main/src/PostorderTraversalDFS.md">Postorder Traversal</a></li>
 <p>Left --> Right --> Root</p>
 
 
