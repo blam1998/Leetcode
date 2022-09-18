@@ -16,8 +16,6 @@ each algorithm. So hopefully this will help you guys get used to Leetcode much f
 
 
 
-
-
 <h2><a href = "https://www.geeksforgeeks.org/window-sliding-technique/" >Sliding Window</a></h2>
 
 <p>
@@ -39,7 +37,7 @@ a lower level.
 
 <a href = "https://leetcode.com/problems/binary-tree-level-order-traversal/" >Binary Tree Level Order Traversal</a>
 
-<h2><a>Depth First Search</a></h2>
+<h2><a href = "https://github.com/blam1998/Leetcode/blob/main/src/DFSOutline.md">Depth First Search</a></h2>
 
 <p>
 This algorithm consist are most often used with recursion, it is possible to do this 

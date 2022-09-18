@@ -90,26 +90,26 @@ class Solution:
 #         self.left = left
 #         self.right = right
 class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        #Global variable
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+
+        #global variable
         result = []
-        
-        def inorder(node):
-            #Base Case
+
+        def postorder(node):
+            #Base case
             if not node:
                 return
-            
+
             #Left
-            inorder(node.left)
-            #Root code
-            result.append(node.val)
+            postorder(node.left)
             #Right
-            inorder(node.right)
-            
+            postorder(node.right)
+            #Root
+            result.append(node.val)
+
             return
-        
-        #Execute function
-        inorder(root)
+
+        postorder(root)
         return result
 ```
 
