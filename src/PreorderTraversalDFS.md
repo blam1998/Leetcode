@@ -16,9 +16,9 @@ class Solution:
             if not node:
                 return
             
-            #recursively calls left and right child
-            #If left or right child exists, return the array of that said child, else return empty array
+            #left =  left array if left child exists, else left = empty array
             left = preorderTraversal(node.left) if node.left else []
+            #right = right array if right child exists, else right = empty array
             right = preorderTraversal(node.right) if node.right else []
             
             #What we return from bottom to top, and from top return to our outer function call.
